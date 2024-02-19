@@ -1,0 +1,593 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 40px;
+}
+.head{
+    text-align: center;    
+}
+.head>img{
+    padding: 0px 13px 0px 17px;
+}
+
+.background-image{
+    background-image: url("../images/hero_apple_vision_pro__e8407ehady6i_medium.jpg");
+    background-size: contain;
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-color: #f5f5f7;
+    width: 100%;
+    height: 500px;
+}
+.text{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 30px;
+}
+.text>h1{
+    padding: 35px 0px 0px 0px;
+    font-size: 52px;
+    margin-bottom: 5px;
+}
+.text>a{
+    text-decoration: dashed;
+    color: blue;
+    font-size: 25px;
+}
+.text>p.offer{
+    color: gray;
+    padding: 10px 0px 10px 0px;
+    font-size: large;
+}
+.text>p{
+    font-size: 25px;
+}
+.cheron{
+    font-size: small;
+}
+
+.title{
+    background-image: url(../images/hero_iphone15pro__i70z9oz3hj2i_medium.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center     ;
+    height:800px;
+}
+.title>.tap>p{
+    color: white;
+    font-family: sans-serif;
+}
+span.more{
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    font-family: sans-serif;
+    padding: 7px 10px 7px 10px;
+    border-radius: 18px;
+    margin: 0px 20px 0px 80px;
+    cursor: pointer;
+}
+span.more:hover{
+    border: 2px solid #7fd6f0;
+    background-color: #7fd6f0;
+}
+span.buy{
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    font-family: sans-serif;
+    padding: 7px 10px 7px 10px;
+    border-radius: 23px;
+    margin: 0px 100px 0px 0px;
+    cursor: pointer;
+}
+span.buy:hover{
+    border: 2px solid #7fd6f0;
+    background-color: #7fd6f0;
+}
+.iphone{
+    background-image: url(../images/hero_iphone15pro__i70z9oz3hj2i_large.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 303px;
+}
+.light{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font-family: sans-serif;
+    max-height: 100px;
+}
+.light>p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.light>h1{
+    font-size: 38px;
+}
+span.more1{
+    color: blue;
+    font-family: sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+span.buy2{
+    color: blue;
+    font-family: sans-serif;
+    padding-left: 40px;
+    font-size: larger;
+}
+.cheron01{
+    font-size: medium;
+    padding: 2px;
+}
+/* ******************************************cardcomplete******************************** */
+.header0{
+    display: flex;
+}
+.headh1{
+    width: 100%;
+    height: 550px;
+    border: 2px solid #f5f5f7;
+    background-color: #f5f5f7;
+    background-image: url(../images/hero_iphone15_announce__uuemlcwczn6u_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.headh1>h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+.headh1>p{
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.more0{
+
+    color: blue;
+}
+.headh2{
+    border: 2px solid #fafafa;
+    background-color: #fafafa;
+    background-image: url(../images/promo_apple_watch_ultra2_order__dyxqj5ia98om_medium.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 550px;
+}
+.headh2>h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+.headh2>p{
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.headh02{
+    border: 2px solid #fafafa;
+    background-color: #fafafa;
+    background-image: url(../images/promo_valentines_day_2024__bbgmf6gk911u_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 550px;
+}
+.headh02>h1{
+    text-align: center;
+    /* font-size: 30px; */
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+.headh02>p{
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+}
+p.more12{
+    color: blue;
+    font-family: sans-serif;
+    cursor: pointer;
+    padding: 10px 0px 10px 0px;
+}
+.cheron03{
+    font-size: small;
+}
+.headh04{
+    background-image: url(../images/promo_apple_watch_series_9_order__b3u85rm9zf6u_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    font-family: sans-serif;
+    text-align: center;
+    border: 2px solid #fbfbfd;
+    background-color: #fbfbfd;
+}
+.headh04>h1{
+    font-size: 45px;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+.headh04>p{
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.headh04>.tow{
+    color: #ff4800;
+    font-family: sans-serif;
+}
+
+.headh55{
+    background-image: url(../images/tile__cauwwcyyn9hy_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    font-family: sans-serif;
+    text-align: center;
+    border: 2px solid #fbfbfd;
+    background-color: #fbfbfd;
+}
+.headh55>h1{
+    font-size: 45px;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+.headh55>p{
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.headh55>.tow{
+    color: #ff4800;
+    font-family: sans-serif;
+}
+.headh5{
+    background-image: url(../images/promo_iphone_tradein__bugw15ka691e_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    font-family: sans-serif;
+    text-align: center;
+    border: 2px solid #fbfbfd;
+    background-color: #fbfbfd;
+}
+.headh5>h1{
+    font-size: 45px;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+.headh5>p{
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+/* *********************************text***************************** */
+.headerlast{
+    display: flex;
+}
+.main01{
+    padding: 0px 150px 0px 150px  ;
+    background-color: #f5f5f7;
+}
+.main02 p{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main02{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: small;
+    padding-left: 100px;
+}
+.main02>ul>li{
+    display:flex ;
+    padding: 5px;
+}
+.main02>ul>h4{
+    padding: 5px;
+}
+.main02>ul>li>a{
+    text-decoration: dashed;
+    color: gray;
+}
+.main02>ul>li>a:hover{
+    text-decoration:underline;
+}
+.pragraph{
+    color: gray;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.pragraph a{
+    color: blue;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .five{
+        display:none;
+    }
+    .head{
+        text-align: start;
+    }
+    img.four{
+        width: 25px;
+        height: 52px;
+    }
+    img.six6{
+        width: 25px;
+        height: 52px;
+        cursor: pointer;
+    }
+    img.six{
+        cursor: pointer;
+        width: 25px;
+        height: 52px;
+        margin-left: 290px;
+        padding: 0px 0px 0px 0px;
+    }
+    .navbar>.head>span>.seven{
+        font-size: 20px;
+        color: grey;
+        position:absolute;
+        margin: 16px 0px 0px 2px;
+        cursor: pointer;
+        visibility: visible !important;
+    }
+    .text>h1{
+        padding: 35px 0px 0px 0px;
+        font-size: 39px;
+        margin-bottom: 5px;
+    }
+    .text>a{
+        text-decoration: dashed;
+        color: blue;
+        font-size: 20px;
+    }
+    .text>p.offer{
+        color: gray;
+        padding: 10px 0px 10px 0px;
+        font-size: medium;
+    }
+    .text>p{
+        font-size: 20px;
+    }
+    .cheron{
+        font-size: small;
+    }
+    .title{
+        height: 269px;
+    }
+    .tap{
+        margin-left: 80px;
+        font-size: small;
+    }
+    .tap>img{
+        margin-top: 150px;
+        margin-left: 120px;
+        width: 90px;
+        height: 40px;
+    }
+    span.more{
+        color: black;
+        background-color: white;
+        border: 2px solid white;
+        font-family: sans-serif;
+        padding: 5px 8px 5px 8px;
+        border-radius: 20px;
+        margin: 0px 20px 0px 80px;
+        cursor: pointer;
+    }
+    span.more:hover{
+        border: 2px solid #7fd6f0;
+        background-color: #7fd6f0;
+    }
+    span.buy{
+        color: black;
+        background-color: white;
+        border: 2px solid white;
+        font-family: sans-serif;
+        padding: 5px 8px 5px 8px;
+        border-radius: 25px;
+        margin: 0px 100px 0px 0px;
+        cursor: pointer;
+    }
+    span.buy:hover{
+        border: 2px solid #7fd6f0;
+        background-color: #7fd6f0;
+    }
+    .header0{
+        font-size: small;
+    }
+    /* *******************jhj****************** */
+  
+    .light{
+        text-align: center;
+        color: white;
+        background-color: black;
+        padding-top: 40px;
+        font-family: sans-serif;
+    }
+    .light>p{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 15px;
+    }
+    .light>h1{
+        font-size: 33px;
+    }
+    span.more1{
+        color: blue;
+        font-family: sans-serif;
+        font-size: medium;
+        text-align: center;
+    }
+    span.buy2{
+        color: blue;
+        font-family: sans-serif;
+        padding-left: 40px;
+        font-size: medium;
+    }
+    .cheron01{
+        font-size: smaller;
+    }
+    /* ***************************titnuim****************** */
+    .header0{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .headh1{
+        border: 2px solid #f5f5f7;
+        background-color: #f5f5f7;
+    }
+    .headh1>h1{
+        text-align: center;
+        font-size: 40px;
+        font-family: sans-serif;
+        padding-top: 20px;
+    }
+    .headh1>p{
+        text-align: center;
+        font-size: large;
+        font-family: sans-serif;
+    }
+    .more0{
+    
+        color: blue;
+    }
+    .headh2{
+        border: 2px solid #fafafa;
+        background-color: #fafafa;
+    }
+    .headh2>h1{
+        text-align: center;
+        font-size: 40px;
+        font-family: sans-serif;
+        padding-top: 20px;
+    }
+    .headh2>p{
+        text-align: center;
+        font-size: large;
+        font-family: sans-serif;
+    }
+    p.more12{
+        color: blue;
+        font-family: sans-serif;
+        cursor: pointer;
+        padding: 10px 0px 10px 0px;
+    }
+    .cheron03{
+        font-size: small;
+    }
+    .headh4{
+        font-family: sans-serif;
+        text-align: center;
+        border: 2px solid #fbfbfd;
+        background-color: #fbfbfd;
+    }
+    .headh4>h1{
+        font-size: 40px;
+        font-family: sans-serif;
+        padding-top: 20px;
+    }
+    .headh4>p{
+        text-align: center;
+        font-size: large;
+        font-family: sans-serif;
+    }
+    .headh4>.tow{
+        color: #ff4800;
+        font-family: sans-serif;
+    }
+    .headh5{
+        font-family: sans-serif;
+        text-align: center;
+        border: 2px solid #fbfbfd;
+        background-color: #fbfbfd;
+    }
+    .headh5>h1{
+        font-size: 40px;
+        font-family: sans-serif;
+        padding-top: 20px;
+    }
+    .headh5>p{
+        text-align: center;
+        font-size: large;
+        font-family: sans-serif;
+    }
+    .header0 .headh4>img{
+        width: 455px;
+        height: 300px;
+    }
+    .header0 .headh2>img{
+        width: 455px;
+        height: 300px
+    }
+    .header0 .headh5>img{
+        width: 455px;
+        height: 300px
+    }
+    .header0 .headh1>img{
+        width: 455px;
+        height: 300px 
+    }
+    /* *********************keepup************************ */
+    .main01{
+        padding: 0px 10px 0px 10px  ;
+        background-color: #f5f5f7;
+        font-size: 14px;
+    }
+    .main02 p{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main02{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        font-family: sans-serif;
+        font-size: 10px;
+        padding-left: 0px;
+    }
+    .main02>ul>li{
+        display:flex ;
+        padding: 5px;
+    }
+    .main02>ul>h4{
+        padding: 5px;
+    }
+    .pragraph{
+        color: gray;
+        font-size: smaller;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-right: 10px;
+    }
+}
+@media only screen and (max-width: 204px){
+
+    .pragraph{
+        padding-left: 0;
+    }
+}
